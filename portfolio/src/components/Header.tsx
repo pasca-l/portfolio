@@ -13,6 +13,13 @@ export default function Header() {
             priority
           />
         </a>
+        <Image
+          src="https://github.com/identicons/pasca-l.png"
+          alt="GitHub Logo"
+          width={32}
+          height={32}
+          priority
+        />
         <div className="flex-auto content-center text-sm">
           pasca-l / portfolio
         </div>
