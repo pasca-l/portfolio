@@ -7,9 +7,9 @@ import Title from "@/components/Title";
 export default function Home() {
   return (
     <>
-      <div className="min-h-screen flex flex-col bg-white">
+      <div className="flex min-h-screen flex-col bg-white">
         <Header accountName="pasca-l" repositoryName="portfolio" />
-        <div className="grow mt-6 px-8 self-center w-screen">
+        <div className="mt-6 w-screen grow self-center px-8">
           <Title title="Portfolio" description="updated on 6 Jul 2024" />
           <div className="flex gap-x-6">
             <div className="grow">

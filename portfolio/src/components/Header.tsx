@@ -9,7 +9,7 @@ export default function Header({
 }) {
   return (
     <>
-      <div className="flex p-4 gap-3 bg-gray-100 border-b border-gray-300">
+      <div className="flex gap-3 border-b border-gray-300 bg-gray-100 p-4">
         <a>
           <Image
             src="/github-mark.svg"
@@ -28,7 +28,7 @@ export default function Header({
         />
         <div className="flex-auto content-center text-sm">
           <a
-            className="p-1.5 rounded hover:bg-gray-200"
+            className="rounded p-1.5 hover:bg-gray-200"
             href={`https://github.com/${accountName}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -37,7 +37,7 @@ export default function Header({
           </a>
           /
           <a
-            className="font-medium p-1.5 rounded hover:bg-gray-200"
+            className="rounded p-1.5 font-medium hover:bg-gray-200"
             href={`https://github.com/${accountName}/${repositoryName}`}
             target="_blank"
             rel="noopener noreferrer"

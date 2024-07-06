@@ -1,7 +1,7 @@
 export default function Content() {
   return (
     <>
-      <div className="mb-4 p-8 border rounded-md border-gray-300">
+      <div className="mb-4 rounded-md border border-gray-300 p-8">
         <article className="markdown-body">
           <h1 id="sample-markdown">Sample Markdown</h1>
           <p>This is some basic, sample markdown.</p>
