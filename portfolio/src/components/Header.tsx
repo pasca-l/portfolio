@@ -10,17 +10,16 @@ export default function Header({
   return (
     <>
       <div className="flex gap-3 border-b border-gray-300 bg-gray-100 p-4">
-        <a>
-          <Image
-            src="/github-mark.svg"
-            alt="GitHub Logo"
-            width={32}
-            height={32}
-            priority
-          />
-        </a>
         <Image
-          src={`https://github.com/identicons/${accountName}.png`}
+          src="/identicon.svg"
+          alt="GitHub Identicon"
+          width={32}
+          height={32}
+          priority
+        />
+        <div className="content-end text-sm">feat.</div>
+        <Image
+          src="/github-mark.svg"
           alt="GitHub Logo"
           width={32}
           height={32}
